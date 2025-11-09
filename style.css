@@ -199,12 +199,6 @@ li a:hover{
     transform: translateY(-5px);
 }
 
-.category-item img{
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
 .category-item p{
     font-size: 1.1rem;
     font-weight: 600;
@@ -265,6 +259,13 @@ li a:hover{
     font-size: 0.9rem;
 }
 
+.bottom-bar-grid{
+    display: flex;
+    gap:70px;
+    padding: 50px;
+
+}
+
 .shop-layout{
     display: flex;
     gap:    30px;
@@ -305,7 +306,7 @@ li a:hover{
 
 .product-item{
     display:flex;
-    gap:30px;
+    gap:70px;
     flex-grow: 1;
     flex-wrap: wrap;
 }
@@ -326,3 +327,48 @@ li a:hover{
     text-align: center;
 }
 
+.product-layout{
+    display: flex;
+    gap:    30px;
+}
+
+.product-image{
+    width:400px;
+    flex-shrink: 0;
+}
+
+.product-content{
+    padding: 80px 5%;
+}
+
+.smartphone-info1 h2{
+    font-size: 2rem;
+    text-align: justify;
+    color: var(--text-color);
+}
+
+.smartphone-info1 h4{
+    font-size: 1.1rem;
+    color: var(--heading-color);
+}
+
+.smartphone-info1 p{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    text-align: left;
+}
+
+.smartphone-info2 h5{
+    font-size: 1.3rem;
+    color: #003631;
+}
+
+.smartphone-info2{
+    display: flex;
+    gap:50px;
+}
+
+.product-grid{
+    display: grid;
+    gap: 30px;
+}
