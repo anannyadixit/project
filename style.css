@@ -372,3 +372,56 @@ li a:hover{
     display: grid;
     gap: 30px;
 }
+
+.carts{
+    width:450px;
+    flex-shrink: 0;
+}
+
+.cart-layout{
+    display: flex;
+    gap:    550px;
+}
+
+.cart-page h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 70px;
+    color: var(--text-color);
+}
+
+.cart-layout h5{
+    text-align: center;
+    font-size: 1rem;
+    color: var(--primary-color);
+    align-self: center;
+    padding: 60px;
+}
+
+.cart-detail h3{
+    text-align: center;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    padding: 20px 10px;
+    justify-content: space-around;
+}
+
+.cart{
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 90px;
+}
+
+.cart-detail p{
+    display: grid;
+}
+
+.cart-detail ul{
+    display: grid;
+}
+
+.cart-detail li{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    color: var(--text-color);
+}
